@@ -46,7 +46,7 @@ class: center, middle
 - Clean/readable HTML markup
 - Easily find relevant styles for components
 - Only load styles currently needed by the page
-- Have 100% browser compatability
+- Have 100% browser compatibility
 ]
 
 ---
@@ -406,44 +406,26 @@ Atomic (also known as Functional) CSS is the approach to CSS architecture that f
 Object-Oriented CSS - Provides separation
 
 - of structure (invisible) and design (visible)
-- of container and content
+  - structure: height, width, margin, padding, etc.
+  - design: color, fonts, gradients, pointers, etc.
 ]
 
 ???
 - Separate page structure from appearance
 - to allow custom styling of to multiple elements without affecting structure
-- i.e. A list with a header and items could be placed in both a sidebar and footer.
-The only real difference is the structure of the sidebar and footer
 
-[OOCSS](https://github.com/stubbornella/oocss/wiki)
-
----
-
-.left-column[
-## Architecture
-### ACSS
-### OOCSS
-]
+--
 
 .right-column[
 
-Object-Oriented CSS - Provides separation
-
-- of structure (invisible) and design (visible)
-  - structure: height, width, margin, padding, etc.
-  - design: color, fonts, gradients, pointers, etc.
 - of container and content
   - Container: divs, other nested elements
   - Content: Images, paragraphs, links
 ]
 
 ???
-- Separate page structure from appearance
-- to allow custom styling of to multiple elements without affecting structure
 - i.e. A list with a header and items could be placed in both a sidebar and footer.
 The only real difference is the structure of the sidebar and footer
-
-[OOCSS](https://github.com/stubbornella/oocss/wiki)
 
 ---
 
@@ -595,7 +577,7 @@ Block, Element, Modifier - Class Naming Convention
   - and not out of date
 - Reuse class names without collision
 - Identify and remove unused styles and redundant overrides
-- Browser compatability
+- Browser compatibility
 - Clean/readable HTML markup
 - Easily find relevant styles for components
 - Remove a build tool
